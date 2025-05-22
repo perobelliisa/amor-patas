@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        {% with mensagens = get_flashed_messages() %}
+        {% if mensagens %}
+            <ul>
+                {% for msg in mensagens %}
+                    <li style="color: green;">{{ msg }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+        <div>
+            <img src="static/img/Logo.pet.png" alt="Logo amor & patas">
+        </div>
+        <nav>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('prelogin') }}">Quem Somos</a>
+            <a href="{{ url_for('index') }}">Profissionais</a>
+            <a href="{{ url_for('index') }}">Serviços</a>
+            <a href="{{ url_for('prelogin') }}">Conta</a>
+        </nav>
+    </header>
+</body>
+</html>
