@@ -139,5 +139,118 @@ span {
 footer{
     background-color: #B7DDF3;
     text-align: center;
-    padding: 20px;
+    padding: auto;
+}
+
+.vete {
+    margin-top: 30px;
+    margin-left: 70px
+   
+}
+ 
+.vete a {
+    margin-left: 120px;
+    background-color: #B5EAD7;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+}
+ 
+.vete img {
+    position: relative;
+    width: 190px;
+    height: 130px;
+    display: block;
+    margin-left: 110px;
+    padding-top: 20px;
+    margin-bottom: -8px;
+}
+ 
+.cliente {
+    margin-top: 20px;
+    margin-left: 100px;
+    display: block;
+}
+ 
+.cliente img {
+    position: relative;
+    width: 170px;
+    height: 110px;
+    display: block;
+    margin-left: 150px;
+    margin-top: 36px;
+    margin-bottom: 7px;
+}
+ 
+.cliente a {
+    margin-left: 150px;
+    background-color: #B5EAD7;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+   
+}
+ 
+.cadas {
+    margin-top: 50px;
+    margin-left: 150px;
+    display: block;
+}
+ 
+.cadas img {
+    position: relative;
+    width: 170px;
+    height: 110px;
+    display: block;
+    margin-left: 90px;
+    margin-bottom: 14px;
+    margin-top: 0px;
+}
+ 
+.cadas a {
+    margin-left: 60px;
+    background-color: #B5EAD7;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+   
+   
+}
+ 
+.acao {
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 0px;
+}
+
+main{
+    min-height: 60vh;
+}
+
+.fundo {
+    background-color: #B5EAD7;
+    padding: 190px;
+    width: 450px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+   
+}
+ 
+.nome {
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+ 
+.tutor {
+    text-align: left;
+    margin-top: ;
+}
+ 
+.titulocada {
+   text-align: center;
+   margin-top: 30px;
 }

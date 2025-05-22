@@ -7,41 +7,52 @@
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-     <header>
-        <div>
-            <img src="static/img/Logo.pet.png" alt="Logo amor & patas">
-        </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="index.html">Quem Somos</a>
-            <a href="index.html">Profissionais</a>
-            <a href="index.html">Serviços</a>
-            <a href="prelogin.html">Conta</a>
+     <header class="d-flex around">
+        <img src="static/img/logo.png" alt="Logo amor & patas" width="90px" class="logo">
+        <nav class="cabeca d-flex between">
+            <a href="index.html"><b>Home</b></a>
+            <a href="index.html"><b>Quem Somos</b></a>
+            <a href="index.html"><b>Profissionais</b></a>
+            <a href="index.html"><b>Serviços</b></a>
+            <a href="prelogin.html"><b>Conta</b></a>
         </nav>
     </header>
-
-    <section>
-        <h1>Cadastre-se na Amor & Patas!</h1>
-    </section>
-    
-    <section>
-        <form action="/adicionar_tutor" method="POST">
-        <label for="tutor">Nome:</label>
-        <input type="text" name="tutor" id="tutor" required><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required><br><br>
-
-        <label for="senha">Senha:</label>
-        <input type="password" name="senha" id="senha" required><br><br>
-
-        <button type="submit">Cadastrar</button>
-        </form>
-        <img src=" alt="Cachorro com a língua de fora">
-    </section>
-
+    <main>
+        <section class="titulocada">
+            <h1>Cadastre-se na Amor & Patas!</h1>
+        </section>
+       
+        <section class="d-flex">
+            <div class="fundo">
+                <div class="tutor">
+                    <h1><b>Tutor</b></h1>
+                </div>
+            <div class="nome">
+                <form action="/adicionar_tutor" method="POST">
+                <label for="tutor">Nome:</label>
+                <input type="text" name="tutor" id="tutor" required><br><br>
+            </div>
+ 
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br><br>
+            </div>
+ 
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required><br><br>
+            </div>
+ 
+            <div>
+            <button type="submit">Cadastrar</button>
+            </div>
+            </form>
+        </div>
+        </section>
+    </main>
     <footer>
-        <p>Todos os direitos reservados</p>
+        <img src="static/img/logo.png" alt="logo" width="80px">
+        <p><b>© 2025 - Todos os direitos reservados</b></p>
     </footer>
 </body>
 </html>
