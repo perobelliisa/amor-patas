@@ -1,54 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     margin: 0%;
     text-decoration: none;
     font-family: poppins;
     color: black;
 }
 
-header{
-    background-color:#B7DDF3;
+header {
+    background-color: #B7DDF3;
 }
 
-.logo{
-    margin-left:0px;
+.logo {
+    margin-left: 0px;
 }
 
-.cabeca{
-    color:black;
+.cabeca {
+    color: black;
     text-align: center;
     margin-top: 25px;
     gap: 220px;
 }
 
-.vetegato{
+.vetegato {
     margin-left: 900px;
     margin-top: 50px;
 }
 
-.cuidar{
+.cuidar {
     position: absolute;
     margin-left: 330px;
     margin-top: 90px;
     font-size: 24px;
 }
 
-.quem{
+.quem {
     color: #4B987C;
     margin-left: 150px;
     margin-top: 50px;
 }
 
-.cachorro{
+.cachorro {
     margin-left: 150px;
     margin-top: 70px;
 }
 
-.agendar{
+.agendar {
     background-color: #B5EAD7;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 650px;
 }
 
-span{
+span {
     color: #005484;
 }
 
@@ -68,7 +77,7 @@ span{
     align-items: center;
 }
 
-.verde{
+.verde {
     background-color: #B5EAD7;
     height: 10px;
     border: none;
@@ -79,72 +88,56 @@ span{
     text-align: right;
 }
 
-.imgacao {
-    display: flex;        
-    padding: 20px;  
-    margin-top: 20px;
-    margin: auto;
+.somos {
+    font-size: 24px;
+}
+
+.funcio {
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.fun {
+    background-color: #B7DDF3;
+    padding: 30px;
+}
+
+.pro {
+    color: #4B987C;
+    margin-top: 25px;
+    font-size: 24px;
+    margin-left: 140px;
+}
+
+.container {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container1 {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.colunm {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    padding: 50px;
 }
- 
- 
-.gato {
-    margin-right: 20px;  
-    margin-top: 20px;
+.servico {
+    width: 505px;
+    text-align: center;
+    padding: 30px 0px;
 }
- 
-.doisdog {
-    margin-right: 20px;  
-    margin-top: 150px;
-}
- 
-.dogoculos {
-    margin-right: 0;
-    margin-top: 143px;
-    margin-left: 165px;
-}
- 
-a {
-    text-decoration: none;
-    color: black;
-   
-}
- 
-.vet {
-    background-color: #B5EAD7;
-    width: 200px;
-    margin-left: 220px;
-    margin-top: -78px;
+
+footer{
+    background-color: #B7DDF3;
     text-align: center;
     padding: 20px;
-    border-radius: 50px;
-}
- 
-.cliente {
-    background-color: #B5EAD7;
-    width: 200px;
-   margin-left: 630px;
-   margin-top: -68px;
-   text-align: center;
-   padding: 20px;
-   border-radius: 50px;
-}
- 
-.cadas {
-    background-color: #B5EAD7;
-    width: 200px;
-    margin-left: 1050px;
-    margin-top: -68px;
-    text-align: center;
-    padding: 20px;
-    border-radius: 50px;
-}
- 
-.acao {
-    color: black;
-    text-align: center;
-    margin-top: 140px;
-   
-   
 }
