@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+     <header>
+        <div>
+            <img src="static/img/Logo.pet.png" alt="Logo amor & patas">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html">Quem Somos</a>
+            <a href="index.html">Profissionais</a>
+            <a href="index.html">Serviços</a>
+            <a href="prelogin.html">Conta</a>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Cadastre seu Pet na Amor & Patas!</h1>
+    </section>
+    
+    <section>
+        <form action="/adicionar_pet" method="POST">
+        <label for="tutor">Nome:</label>
+        <input type="text" name="tutor" id="tutor" required><br><br>
+
+        <label for="endereço">Endereço:</label>
+        <input type="text" name="endereço" id="endereço" required><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" required><br><br>
+
+        <button type="submit">Cadastrar</button>
+        </form>
+        <img src="" alt="Cachorro com a língua de fora">
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
