@@ -352,3 +352,58 @@ button {
     font-size: 24px;
     text-align: center;
 }
+
+.fundoeditar{
+  background-color: #b7f0dc;
+  padding: 30px 20px;
+  border-radius: 12px;
+  width: 500px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /*Faz uma sombra*/
+  margin-left: 500px;
+  margin-top: 70px;
+}
+
+.alteracao{
+    background-color: #88c5ae;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 150px;
+    border-color: #88c5ae;
+    margin-top: 20px;
+}
+
+
+.nomeditar{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.emaileditar {
+    text-align: center;
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+.senhaeditar {
+    text-align: center;
+    line-height: 35px;
+    margin-left: 5px;
+}
+
+.voltar {
+    background-color: #88c5ae;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 70px;
+    border-color: #88c5ae;
+    margin-left: 10px;
+
+}

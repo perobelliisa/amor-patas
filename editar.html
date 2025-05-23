@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editar</title>
-</head>
-<body>
-    <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Editar Perfil</title>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-    <h1>Editar Perfil</h1>
+    <header class="d-flex around">
+        <img src="static/img/logo.png" alt="Logo amor & patas" width="90px" class="logo">
+        <nav class="cabeca d-flex between">
+            <a href="index.html"><b>Home</b></a>
+            <a href="index.html"><b>Quem Somos</b></a>
+            <a href="index.html"><b>Profissionais</b></a>
+            <a href="index.html"><b>Serviços</b></a>
+            <a href="prelogin.html"><b>Conta</b></a>
+        </nav>
+    </header>
+    <main>
+        <h2 class="bem">Editar Perfil</h2>
+        <form method="POST" action="{{ url_for('editar_login') }}" class="fundoeditar">
+            <input type="hidden" name="codigo" value="{{ usuario['codigo'] }}">
 
-    <form method="POST" action="{{ url_for('editar_login') }}">
-        <input type="hidden" name="codigo" value="{{ usuario['codigo'] }}">
+            <label for="nomeusuario" class="nomeditar">Nome:</label>
+            <input type="text" name="nomenovo" value="{{ usuario.nome }}" required><br>
 
-        <label for="nomeusuario">Nome:</label>
-        <input type="text" name="nomenovo" value="{{ usuario.nome }}" required><br>
+            <label for="emailusuario" class="emaileditar">Email:</label>
+            <input type="email" name="emailnovo" value="{{ usuario.email }}" required><br>
 
-        <label for="emailusuario">Email:</label>
-        <input type="email" name="emailnovo" value="{{ usuario.email }}" required><br>
+            <label for="senhausuario" class="senhaeditar">Senha:</label>
+            <input type="password" name="senhanova" value="{{ usuario.senha }}" required><br>
 
-        <label for="senhausuario">Senha:</label>
-        <input type="password" name="senhanova" value="{{ usuario.senha }}" required><br>
-
-        <button type="submit">Salvar Alterações</button>
-    </form>
-
-    <a href="{{ url_for('usuarios', codigo=usuario.codigo) }}">Voltar</a>
-</body>
-</html>
+            <button type="submit" class="alteracao">Salvar Alterações</button>
+            <a class="voltar" href="{{ url_for('usuarios', codigo=usuario.codigo) }}">Voltar</a>
+        </form>
+    </main>
+    <footer>
+        <img src="static/img/logo.png" alt="logo" width="80px">
+        <p><b>© 2025 - Todos os direitos reservados</b></p>
+    </footer>
 </body>
 </html>
