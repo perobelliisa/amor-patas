@@ -139,7 +139,9 @@ span {
 footer{
     background-color: #B7DDF3;
     text-align: center;
-    padding: auto;
+    padding: 20px;
+    margin-top: 55px;
+    
 }
 
 .vete {
@@ -228,29 +230,125 @@ main{
     min-height: 60vh;
 }
 
+.minhacon{
+    margin-top: 90px;
+    margin-left: 400px;
+    color: #005484;
+    padding: auto;
+}
+
+.agendara{
+    margin-top: -185px;
+    margin-left: 1000px;
+    color: #005484;
+}
+
 .fundo {
-    background-color: #B5EAD7;
-    padding: 190px;
-    width: 450px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+  background-color: #b7f0dc;
+  padding: 40px 30px;
+  border-radius: 12px;
+  width: 500px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /*Faz uma sombra*/
+  margin-left: 480px;
    
 }
  
 .nome {
     text-align: center;
     margin-bottom: 15px;
+    margin-top: 45px;
+    margin-left: -280px;
    
 }
  
 .tutor {
-    text-align: left;
-    margin-top: ;
+   margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
 }
  
 .titulocada {
    text-align: center;
    margin-top: 30px;
+}
+ 
+.senha {
+   text-align: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left: -280px;
+}
+ 
+.email {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left: -280px;
+}
+ 
+.dog {
+    position: absolute;
+    left: 720px;
+    right: 0;
+    width: auto;
+    height: auto;
+    max-width: 100%; /* Para manter a imagem dentro do quadrado verde */
+    top: 322px;
+}
+
+.titulologin {
+    text-align: center;
+   margin-top: 120px;
+}
+ 
+.imagemlogin {
+   display: flex;
+        justify-content: center; /* Define o alinhamento*/
+        align-items: center; /* Controla o alinhamento dos itens*/
+        height: 100vh;
+        margin-top: -180px;
+        margin-left: 50px;
+}
+ 
+.fundologin {
+  background-color: #b7f0dc;
+  padding: 30px 20px;
+  border-radius: 12px;
+  width: 500px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /*Faz uma sombra*/
+  margin-left: 500px;
+  margin-top: -170px;
+}
+ 
+.emaillogin {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    margin-left: -280px;
+}
+ 
+.senhalogin {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left: -280px;
+ 
+}
+ 
+button {
+    background-color: #88c5ae;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+    border-color: #88c5ae;
+}
+
+.bem{
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
 }
